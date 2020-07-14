@@ -1,0 +1,94 @@
+html{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #5a5a5a;
+    background-color: #ffffff;
+    text-rendering: optimizeLegibility;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(16, 3.75vmax);
+    grid-template-rows: repeat(9, 6.666vmin);
+    grid-gap: 0px;
+    background-color: #111111;
+    padding: 0px;
+  }
+  
+  #canvas {
+      padding: 10px;
+      margin-top: 0 auto;
+      width: 60vmax;
+      height: 60vmin;
+      top :100;
+  }
+  
+  .grid-container > div {
+      display: block;
+      background-color: rgba(255, 255, 255, 0.8);
+      text-align: center;
+      padding: 0px 0;
+      font-size: 20px;
+      width: 50;
+      height: 50;
+      background: #ffffff;
+  }
+  .grid-item {
+      border: #222222 1px dotted;
+  }
+/* 
+  .empty{
+      border: none;
+  }
+  .fill {
+      border: #222222 1px dotted;
+  } */
+
+  .container123{
+      position: absolute;
+      right: 0vw;
+      top: 0vh;
+      margin-top: 100px;
+      margin-right: 5vh;
+  }
+  .container{
+      overflow: scroll;
+      height: 420px;
+      width: 120px;
+  }
+  .gallery_pt{
+    position: relative;
+
+}
+.gallery_pt img{
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+
+.btnRemove{
+    padding-left: 5px;
+    /* display: inline; */
+    background-color: red;
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.btnExport{
+    padding-left: 5px;
+    /* display: inline; */
+    background-color: blueviolet;
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+i{
+    padding-right: 5px;
+}
